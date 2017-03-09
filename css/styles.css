@@ -1,0 +1,72 @@
+body {
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar {
+  background: #0D181F; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #0D181F , #27485C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #0D181F, #27485C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #0D181F, #27485C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #0D181F , #27485C); /* Standard syntax */
+
+  opacity: 0.9;
+}
+
+.navbar-header{
+  margin-right: 20px!important;
+}
+
+.wrapper_1{
+	height: 100%;
+	background: #000000 url('/img/wooden_background_light_texture_50369_1600x1200.jpg') repeat-y center center;
+	background-size:  100% auto;
+    background-repeat: repeat-y;
+	/*border: 5px solid yellow;*/
+	position: relative;
+    padding: 50px 0 0 0;
+}
+
+footer{
+    color: white;
+}
+
+html, body{
+	height: auto;
+}
+
+.youTube{
+    display: block; 
+    margin: 0 auto;
+}
+
+.title{
+    color:#606060;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.project{
+    margin: 70px 0 200px 0;
+    font-family: Tahoma;
+}
