@@ -1,7 +1,7 @@
 body {
     /*padding-top: 50px;
     padding-bottom: 20px;*/
-	background-color: black;
+	background-color: #000000;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -62,13 +62,51 @@ html, body{
 }
 
 .title{
-    color:#606060;
-    font-size: 42px;
-    font-weight: 800;
+    color:#606060;	
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .project{
    /*   margin: 70px 0 200px 0;  */ 
 /* 	 margin: 50px 0 0 0;  */
     font-family: Tahoma;
+}
+
+
+body > footer{
+    position: fixed;
+    top: 0;
+    right: 100%;
+    padding: .5em 3em;
+    white-space: nowrap;
+    font-size: 120%;
+    color: rgba(0, 0, 0, .1);
+    -moz-transform: rotate(-90deg);
+    -moz-transform-origin: top right;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin: top right;
+    -o-transform: rotate(-90deg);
+    -o-transform-origin: top right;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin: top right;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+}
+
+.mail{
+    color:#606060;
+   /*  font-weight: bold; */
+    text-decoration: underline;
+    margin: 0 80px 0 50px;
+}
+.aboutRef{
+    color:#606060;
+    /* font-weight: bold; */
+    /* text-decoration: underline; */
+   /*  margin: 0 50px 0 0; */
+}
+.mail:hover,
+.aboutRef:hover{
+    color: #C4CDFC;
 }
