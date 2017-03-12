@@ -1,7 +1,7 @@
 body {
     /*padding-top: 50px;
     padding-bottom: 20px;*/
-	background-color: #000000;
+	background-color: #000000!important;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -116,3 +116,16 @@ body > footer{
 .aboutRef:hover{
     color: #C4CDFC;
 }
+
+
+
+
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+			width: 70%;
+			margin: auto;
+		}
+		
+		#myCarousel{
+			margin-top: 50px;
+		}

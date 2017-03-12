@@ -2,38 +2,64 @@
 <html>
 <head>
   	<meta charset="utf-8" /> 
-  	<title>Designer Portfolio</title>
+  	<title>Designer Portfolio</title>	
 	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-
 </head>
+
 <body>
 	<div class="lamb">	
 		<img class="logo1" src="img/logo1_mini.jpg" alt="logo_mini" height="50" />
 	</div>
 	
-	<div class="container-fluid">
+	<div class="container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
 
-		<div class="project">
-			<div class="text-center title">				
-				<br />Моделирование<br />
-				и визуализация сегвея
-			</div><br /><br /><br />
-			<!-- <iframe class="youTube" width="420" height="315" -->
-			<!-- <iframe class="youTube" width="960" height="540" -->
-			<iframe class="youTube" width="711" height="400"
-					src="https://www.youtube.com/embed/ta6JWJTp6eE"></iframe>
+			<!-- Wrapper for slides -->
+			<br />
+			<div class="carousel-inner" role="listbox">				
+				<div class="item active project">
+					<div class="text-center title">				
+						Моделирование и визуализация сегвея
+					</div><br /><br />
+						<iframe class="youTube" width="711" height="400" src="https://www.youtube.com/embed/ta6JWJTp6eE"></iframe>
+				</div>
+				<div class="item">
+					<div class="text-center title">	
+						Визуализация интеръера ванной комнаты (3Ds Max)
+					</div><br /><br />						
+					<img src="img\Bathroom.jpg" alt="Chania" width="460" height="345">
+				</div>
+				<div class="item">
+					<div class="text-center title">				
+							Подарок ветеринару
+					</div><br /><br />
+					<img src="img\Masya.jpg" alt="Chania" width="460" height="345">
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-	</div>
+	</div>	
+	
 	<footer>
         <a href="https://www.linkedin.com/in/%25D0%25BB%25D1%258E%25D0%25B4%25D0%25BC%25D0%25B8%25D0%25BB%25D0%25B0-%25D0%25B3%25D0%25B5%25D0%25B9%25D0%25BA%25D0%25BE-014300b8/" class="button aboutRef">Людмила Гейко</a>
         <a href="https://www.linkedin.com/in/%25D0%25BB%25D1%258E%25D0%25B4%25D0%25BC%25D0%25B8%25D0%25BB%25D0%25B0-%25D0%25B3%25D0%25B5%25D0%25B9%25D0%25BA%25D0%25BE-014300b8/" class="button mail">gaykascorpio@gmail.com</a>
